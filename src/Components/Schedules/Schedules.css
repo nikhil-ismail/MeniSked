@@ -1,0 +1,81 @@
+
+.vis.top-child{
+	display: none;
+}
+
+#smallCol{
+	height: 20px;
+}
+
+#entriesP{
+	margin-bottom: 0;
+}
+
+.arrow.top-child{
+	font-size: 12.25px;
+	padding: 0 1em;
+	border: 0;
+	position: relative;
+	bottom: 4px;
+	margin: 0 0.3em;
+}
+
+.labels, .labels1, .labels2, .clabels{
+	margin-top: 1em;
+	position: relative;
+	right: 5px;
+	top: 8px;
+}
+
+.top-child.selector{
+}
+
+.title{
+	margin-top: 1em;
+}
+
+#typeON{
+	font-weight: bold;
+}
+
+#notes{
+	list-style-type: "- ";
+}
+
+#iNotes{
+	list-style-type: circle; 
+}
+
+#numNotes{
+	white-space: pre-wrap;
+}
+
+#downloadLink{
+	margin-bottom: 1em;
+}
+
+.labels1.row, .header1.row, .subheader1.row, .labels2.row, .header2.row, .subheader2.row, #today1{
+	display: none;
+}
+
+.labels2{
+	margin-top: 0px;
+}
+
+.curr{
+	display: flex;
+	justify-content: center;
+}
+
+#today1{
+	position: relative;
+	left: 20%;
+}
+
+/*When resolution <= 750px, hide full text and show short text*/
+@media (max-width: 750px) {
+    .labels1.row, .header1.row, .subheader1.row, .labels2.row, .header2.row, .subheader2.row, #today1 { display: flex; }
+    .labels.row, .header.row, .subheader.row{ display: none; }
+    #pcurr{ position: relative; left: 40px; }
+    
+}

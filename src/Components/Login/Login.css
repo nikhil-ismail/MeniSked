@@ -1,0 +1,55 @@
+.test{
+	width: 25em;
+	margin: auto;
+}
+.spacing{
+	/*width: 100%;*/
+	padding: 0.25em 0em 0.25em 0em;
+	display: flex;
+	justify-content: center;
+}
+
+#title{
+	font-size: 55px;
+	margin: 0.2em 0em 0em 0.2em;
+	color: #00B7BC;
+}
+
+#loginBody{
+	/*width: 100%;*/
+	background-color: #00B7BC;
+}
+
+.login-form{
+	/*width: 100%;*/
+	max-width: 300px;
+	margin: auto;
+	/*height: 100%;*/
+	padding: 1em 0em 1.5em 0em;
+
+}
+
+#loginTitle{
+	padding-bottom: 0.4em;
+	font-size: 50px;
+}
+
+#loginButton{
+	width: 40%;
+	background-color: #66FF66;
+	border-color: #66FF66;
+	color: black;
+}
+
+.label{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#loginFooter{
+	margin-bottom: 1em;
+}
+
+#modalTitle{
+	max-height: 30px;
+}

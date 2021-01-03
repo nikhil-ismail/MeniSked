@@ -1,0 +1,51 @@
+#brandTitle{
+	padding-left: 0.25em;
+	color: #00B7BC;
+}
+
+#myNav{
+	background-color: #f2f2f2;
+}
+
+#navbrand{
+    cursor: pointer;
+}
+
+#collapser{
+	margin-left: auto;
+}
+
+/* Hide logo text by default (resolution > 1200px)*/
+.logo { 
+	display: none;
+
+}
+.logo.linky { 
+	display: none; 
+	margin: auto;
+	margin-left: 0.75em;
+    cursor: pointer;
+}
+
+
+/*When resolution <= 750px, hide full text and show short text*/
+@media (max-width: 750px) {
+    .logo.linky, .logo { display: inline-block; }
+    .full-text.linky, .full-text { display: none; }
+    #brandTitle{
+    	font-size: 30px;
+    	margin-top: 0.25em;
+    	padding-bottom: 0.15em;
+    }
+    #brand{
+    	width: 40px;
+    	height: 40px;
+    	margin-top: 0.25em;
+    }
+}
+@media (max-width: 450px) {
+    #brandTitle{
+        font-size: 0;
+        visibility: hidden;
+    }
+}

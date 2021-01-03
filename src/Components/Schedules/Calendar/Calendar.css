@@ -1,0 +1,105 @@
+.calendar-container, .calendar, .calendar-header, td, tr {
+    padding: 0;
+    margin: 0;
+}
+
+.calendar {
+    background-color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.day, .emptySlot, .week-day {
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.day, .week-day {
+    padding-bottom: 5px;
+}
+
+.emptySlot{
+    background-color: #E8E8E8;
+}
+
+.week-day {
+    font-size: 1em;
+    height: 24px;
+    padding: 0 5px;
+}
+
+.day {
+    text-align: right;
+    font-size: 0.75em;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+td > ul > li, div > li{
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+#note{
+    list-style-type: "– ";
+    list-style-position: inside;
+}
+
+#iNote{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+td > ul{
+    height: 115px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+div > .text{
+    padding-right: 5px; 
+    margin-top: 0;
+}
+
+td > hr {
+    display: block;
+    background-color: #fff;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+#holiday, #num{
+    float: left;
+    padding-left: 5px;
+}
+
+.personal, .pending, .maybe{
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+.pending{
+    color: #FF0000;
+}
+
+.maybe{
+    color: #FFBF00;
+}
+
+#num2{
+    padding: 0 15% 0 5%;
+}
+
+#num, #num2{
+    white-space: pre-wrap;
+}

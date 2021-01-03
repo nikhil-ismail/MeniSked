@@ -1,0 +1,95 @@
+.accepted {
+	color: green;
+}
+
+.denied {
+	color: red;
+}
+
+.maybed{
+	color: orange;
+}
+
+.explanation {
+	width: 100%;
+}
+
+.content {
+	text-align: left;
+}
+
+.counter {
+	text-align: right;
+}
+
+.listStyleA {
+	display: inline-block;
+	padding: 0 25px;
+	width: 100%;
+}
+
+.listStyleE {
+	display: inline-block;
+	padding: 0 25px;
+	margin-bottom: 0.5em;
+	width: 100%;
+}
+
+.accept, .deny{
+	margin-right: 0.15em;
+}
+
+.deny{
+	margin-left: 0.15em;
+}
+
+
+.requestList{
+	margin-bottom: 0.5em; 
+}
+
+.requests{
+	margin-top: 1em;
+	padding-left: 25px;
+	float: left;
+}
+
+.dates.list{
+	width: 125px;
+	padding: 6px 10px;
+}
+
+.edates.list{
+	width: 125px;
+	padding: 12px 20px;
+}
+
+.pend.list{
+	width: 90%;
+	padding: 5px 10px;
+}
+
+.showMore{
+	margin: 1em 0;
+}
+
+.past.requests {
+	display: inline-block;
+}
+
+.filter{
+	float: right;
+	margin: 2em 2em 0 0;
+}
+
+.filtertitle, .dropdownfilter{
+	display: inline-block;
+}
+
+.filtertitle{
+	padding-right: 0.25em;
+}
+
+.deletemsg{
+	float: right;
+}

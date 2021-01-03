@@ -1,0 +1,82 @@
+.left, .right{
+	display: inline-block;
+	width: 47%;
+}
+
+.left{
+	margin-right: 1%;
+}
+.right{
+	margin-left: 1%;
+}
+
+.p.right{
+	margin-top: 0;
+}
+
+.right{
+	vertical-align: top;
+}
+
+
+.top{
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+ul, ol{
+	text-align: left;
+}
+
+li{
+	margin-top: 10px;
+}
+
+.inp{
+	margin-left: 0.5em;
+}
+
+.edit.butn, .delete.butn, .sked.butn{
+	margin-left: 0.75em;
+	font-size: 14px;
+	padding: 1px 4px;
+
+}
+
+.bottom{
+	margin-top: 0.5em;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+#callForm{
+	text-align: left;
+	text-indent: 5px;
+}
+
+#name, #email, #pword{
+	width: 75%;
+}
+#message{
+	width: 90%;
+	resize: none;
+}
+
+#priority{
+	width: 25%;
+}
+
+
+#activeCheck, #priority, #name, #email, #pword, #message{
+	margin: 1em 0 0 1em;
+}
+
+.subtitle{
+	padding-left: 0px;
+}
+
+.setList{
+	padding-left: 30px;
+}
